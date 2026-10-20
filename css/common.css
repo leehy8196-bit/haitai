@@ -156,6 +156,10 @@ header .ham {
     transform: none;
   }
 
+  header h1 img{
+    width: 70px;
+  }
+
   header .utill {
     display: none;
   }
