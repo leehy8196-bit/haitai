@@ -308,11 +308,6 @@
   #tasty-pick .inner {
     margin-bottom: 60px;
   }
-
-  #tasty-pick .btn-more a {
-    font-size: 1.8rem;
-    padding: 10px 30px;
-  }
 }
 
 /*해태스토리*/
@@ -378,10 +373,8 @@
   }
 
   #brand-story>.btn-more a {
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     font-weight: 500;
-    padding: 10px 30px;
-    font-size: 1.6rem;
   }
 }
 
@@ -549,8 +542,7 @@
   }
 
   #new-prd>.btn-more a {
-    border: 2px solid var(--main-color);
-    font-size: 1.6rem;
+    border: 1px solid var(--main-color);
     color: var(--main-color);
     transition: all 0.5s;
   }
