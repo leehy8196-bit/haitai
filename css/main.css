@@ -375,6 +375,7 @@
   #brand-story>.btn-more a {
     border: 1px solid #fff;
     font-weight: 500;
+    font-size: 1.6rem;
   }
 }
 
@@ -420,9 +421,9 @@
 
 #new-prd .swiper-slide .btn-more a {
   border: none;
-  padding: 10px 30px;
-  font-size: 1.6rem;
-  font-weight: 600;
+  padding: 8px 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
   color: var(--main-color);
   background-color: #fff;
 }
