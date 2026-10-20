@@ -284,6 +284,7 @@
 
   #tasty-pick .tasty-h3 span {
     padding: 0;
+    font-size: 4rem;
   }
 
   #tasty-pick .pick {
@@ -298,6 +299,10 @@
 @media(max-width: 768px) {
   #tasty-pick {
     padding-top: 100px;
+  }
+
+  #tasty-pick .tasty-h3 span {
+    font-size: 3.5rem;
   }
 
   #tasty-pick .inner {
@@ -486,12 +491,16 @@
   }
 
   #new-prd h3 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   #new-prd .swiper-button-next,
   #new-prd .swiper-button-prev {
     display: none;
+  }
+
+  #new-prd p {
+    font-size: 1.8rem;
   }
 
   #new-prd>.btn-more a {
@@ -502,6 +511,22 @@
   #new-prd>.btn-more {
     bottom: 80px;
   }
+
+  #banner .swiper-slide {
+    position: relative;
+    height: 100svh;
+  }
+
+  #banner .banner-txt {
+    top: 140px;
+    bottom: auto;
+    left: 30px;
+    right: 30px;
+  }
+
+  #banner .banner-txt > .inner {
+    padding: 0;
+  }
 }
 
 @media(max-width: 768px) {
@@ -511,10 +536,12 @@
 
   #new-prd h3 {
     color: var(--main-color);
+    font-size: 3rem;
   }
 
   #new-prd p {
     color: var(--main-color);
+    font-size: 1.6rem;
   }
 
   #new-prd>.btn-more {
@@ -531,6 +558,29 @@
   #new-prd>.btn-more a:hover {
     background-color: var(--main-color);
     color: #fff;
+  }
+
+    #banner .banner-txt {
+    top: 120px;
+    left: 20px;
+    right: 20px;
+  }
+
+  #banner .banner-txt span {
+    font-size: 2rem;
+  }
+
+  #banner .banner-txt h2 {
+    font-size: clamp(3.6rem, 10vw, 5rem);
+    margin-bottom: 12px;
+  }
+
+  #banner .banner-txt p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
 }
 

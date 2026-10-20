@@ -424,6 +424,7 @@
   transition: all 0.5s;
 }
 
+
 .prd-content .prd-select li.active {
   background-color: var(--main-color);
   color: #fff;
@@ -475,11 +476,9 @@
 @media(max-width: 1024px) {
   .prd-content .prd-select li {
     border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 2rem;
+    padding: 8px 25px;
+    font-size: 1.8rem;
     font-weight: 700;
-    color: var(--main-color);
-    transition: all 0.5s;
   }
 
   .prd-content .prd-list>li>ul {
@@ -493,6 +492,12 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
   }
+  .prd-content .prd-select li {
+    padding: 5px 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
 }
 
 
